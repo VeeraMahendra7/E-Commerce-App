@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/src/components/CartItem.jsx", "app/src/components/FilterOptions.jsx", "app/src/components/ProductCard.jsx", "app/src/components/ProductGrid.jsx", "app/src/components/SearchBar.jsx", "app/src/api/fakeStoreApi.jsx", "app/src/context/CartContext.jsx", "app/src/context/WishlistContext.jsx", "app/src/navigation/AppNavigator.jsx", "app/src/screens/CartScreen.jsx", "app/src/screens/ProductDetailScreen.jsx", "app/src/screens/ProductListScreen.jsx", "app/src/screens/WishlistScreen.jsx", "app/src/utils/storage.jsx", "app/index.jsx", "app/_layout.jsx"  ]
+}
